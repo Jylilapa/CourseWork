@@ -1,7 +1,6 @@
 import logging
 from datetime import datetime
 
-
 logger = logging.getLogger("views.log")
 file_handler = logging.FileHandler("views.log", "w")
 file_formatter = logging.Formatter("%(asctime)s %(levelname)s: %(message)s")

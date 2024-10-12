@@ -1,11 +1,12 @@
 import datetime
+import json
 import logging
 import os
+import urllib.request
+
 import pandas as pd
 import requests
 from dotenv import load_dotenv
-import json
-import urllib.request
 
 load_dotenv()
 API_KEY_CUR = os.getenv("API_KEY_CUR")
